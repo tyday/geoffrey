@@ -14,6 +14,7 @@ public class Diablo implements Team {
         TeamMember divya = new TeamMember("Divya");
         TeamMember david = new TeamMember("David");
 
-        teamMembers = List.of(geoffrey, rosmi, richard, kinga, frank, mike, ty, divya, david);
+        teamMembers = List.of(geoffrey, rosmi, richard, kinga,
+                frank, mike, ty, divya, david);
     }
 }
