@@ -8,11 +8,12 @@ public class Diablo implements Team {
         TeamMember rosmi = new TeamMember("Rosmi");
         TeamMember richard = new TeamMember("Richard");
         TeamMember kinga = new TeamMember("Kinga");
+        TeamMember frank = new TeamMember("Frank");
         TeamMember mike = new TeamMember("Mike");
         TeamMember ty = new TeamMember("Ty");
         TeamMember divya = new TeamMember("Divya");
         TeamMember david = new TeamMember("David");
 
-        teamMembers = List.of(geoffrey, rosmi, richard, kinga, mike, ty, divya, david);
+        teamMembers = List.of(geoffrey, rosmi, richard, kinga, frank, mike, ty, divya, david);
     }
 }
