@@ -1,10 +1,9 @@
 import java.util.List;
 
-public class Diablo implements Team {
+public class MysteryMachine implements Team {
     List<TeamMember> teamMembers;
 
-    public Diablo() {
-        TeamMember geoffrey = new TeamMember("Geoffrey");
+    public MysteryMachine() {
         TeamMember rosmi = new TeamMember("Rosmi");
         TeamMember richard = new TeamMember("Richard");
         TeamMember kinga = new TeamMember("Kinga");
@@ -15,5 +14,6 @@ public class Diablo implements Team {
         TeamMember david = new TeamMember("David");
 
         teamMembers = List.of(geoffrey, rosmi, richard, kinga, frank, mike, ty, divya, david);
+        // :(
     }
 }
